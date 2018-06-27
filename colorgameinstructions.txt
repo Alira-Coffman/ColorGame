@@ -1,0 +1,22 @@
+The color Game Project
+  rgb guessing game
+  Load up a page, 6 random colors shown, one color is listed as the hint
+  pick the colors
+  0 to 255.
+  buttons:
+    two modes? easy and hard?
+    new colors?
+  click wrong answer, it disappears and says try again,
+  correct, all 6 squares and headerbackground change to color
+  , message says correct
+  click play again
+  easier says 3 colors
+  is responsive
+
+
+1: layout
+2: randomly pick a color
+3: randomly show Colors
+4: select a color box
+5: right/wrong functionality\
+6: hard modes

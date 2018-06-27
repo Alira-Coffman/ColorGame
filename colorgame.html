@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  <link rel="stylesheet" href="colorgame.css"></script>
+
+  <link rel="stylesheet" href="colorgame.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="">
+    <div id="header" class="header">
+
+      <h2 class="center">THE GREAT</h2>
+      <!--THis is where the random rgb goes-->
+      <h1 id="colorGuess" class="colorGuess">RGB</h1>
+      <h2>GUESSING GAME</h2>
+
+    </div>
+    <div class="typeLine">
+      <ul class="navbar">
+        <div class="level">
+        <li id='hint' onclick="random_color_pick();">Shuffle the Colors</li>
+        <li id='reset' onclick="newGame();">Reset</li>
+      </div>
+        <li id='wrongOrRight'> </li>
+
+        <!--try again?-->
+        <div class="level">
+          <li onclick="toggleDifficulty('easy');" id="easy">easy</li>
+          <li onclick="toggleDifficulty('hard');" id="hard">hard</li>
+        </div>
+
+
+      </ul>
+    </div>
+    <div class="squareContainer" id="sqrContainer">
+      <div id = "squares" class="row">
+        <div onclick="wrongOrRight('0');" class="square" id="0"></div>
+        <div onclick="wrongOrRight('1');" class="square" id="1"></div>
+        <div onclick="wrongOrRight('2');" class="square" id="2"></div>
+      </div>
+      <br />
+      <div class="row row2">
+        <div onclick="wrongOrRight('3');" class="square" id="3"></div>
+        <div onclick="wrongOrRight('4');" class="square" id="4"></div>
+        <div onclick="wrongOrRight('5');" class="square" id="5"></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+<script src="colorgame.js"></script>
+
+
+</html>

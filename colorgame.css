@@ -1,0 +1,40 @@
+html{
+  text-transform: uppercase;
+}
+.header{
+  text-align: center;
+  background-color: lightgrey;
+}
+.typeLine{
+  background-color: lightblue;
+  margin: -8px 0;
+}
+ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+.level{
+  display: flex;
+}
+.level li{
+  padding: 0 5px;
+}
+.square{
+  background-color: #000;
+  height: 90px;
+  width: 90px;
+  border-radius: 10px;
+  margin:0 20px;
+
+}
+.squareContainer{
+  padding: 0 35%;
+  justify-content: space-between;
+  display: grid;
+
+
+}
+#wrongOrRight{
+  text-align: center;
+  padding-right: 115px;
+}
